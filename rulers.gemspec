@@ -35,4 +35,16 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_runtime_dependency "rest-client"
   spec.add_runtime_dependency "rack"
+  spec.add_development_dependency "rack-test"
+  spec.add_development_dependency "test-unit"
+
+
+
+  # spec.add_development_dependency "bundler", "~> 1.16"
+  # spec.add_development_dependency "rake", "~> 10.0"
+  # spec.add_development_dependency "rspec", "~> 3.0"
+  # spec.add_development_dependency "rack-test", "~>0.8.3"
+  # spec.add_development_dependency "test-unit", "~>3.2.7"
+  # spec.add_runtime_dependency "rest-client", "~>2.0.2"
+  # spec.add_runtime_dependency "rack", "~>2.0.4"
 end
